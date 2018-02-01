@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import '../css/whoiam.css';
-import profile from '../img/h-fav.png'
+import profile from '../img/hoda-linkedin.png'
 import orbit from '../img/orbit.png'
 import "animate.css/animate.min.css";
 import ScrollAnimation from 'react-animate-on-scroll';
