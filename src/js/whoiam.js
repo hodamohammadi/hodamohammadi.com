@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import '../css/whoiam.css';
-import profile from '../img/hoda-linkedin.png'
-import orbit from '../img/orbit.png'
+import profile from '../img/hoda-linkedin.png';
+import orbit from '../img/orbit.png';
+import td from '../img/td.png';
 import "animate.css/animate.min.css";
 import ScrollAnimation from 'react-animate-on-scroll';
 
@@ -25,7 +26,10 @@ export default class WhoIAm extends Component {
               <p className="small">I've worked at:</p>
               <Row className="work">
                 <Col>
-                  <img className="bell" src={orbit} alt={"Orbit Engineering"}/>
+                  <img className="td" src={td} alt={"TD Bank"}/>
+                </Col>
+                <Col>
+                  <img className="orbit" src={orbit} alt={"Orbit Engineering"}/>
                 </Col>
               </Row>
             </Container>

@@ -9,7 +9,7 @@
 }
 
 .profileImage {
-  border-radius: 50%;.
+  border-radius: 50%;
   width: 200px;
   height: 200px;
   border: 2px solid black;
@@ -27,8 +27,8 @@
 }
 
 .small {
-  font-size: 1em!important;
-  letter-spacing: 0.25em!important;
+  font-size: 1em !important;
+  letter-spacing: 0.25em !important;
   text-transform: uppercase;
 }
 
@@ -39,21 +39,13 @@
   transform: translateY(-50%);
 }
 
-.delta {
-  height: 100%;
-}
-
-.phaseone {
-  width: 75%!important;
-}
-
-.bell {
-  width: 30%!important;
+.td {
+  width: 25% !important;
 }
 
 .details {
-  font-size: 1em!important;
-  margin: 1em auto 0!important;
+  font-size: 1em !important;
+  margin: 1em auto 0 !important;
 }
 
 @media screen and (max-width: 800px) {
