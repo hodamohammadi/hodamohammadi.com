@@ -33,7 +33,7 @@ export default class WhatIveDone extends Component {
 
               <Row>
                 <h5>
-                  Grocieries Uber | ReactJS Web App{" "}
+                  Groceries Uber | ReactJS Web App{" "}
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
