@@ -12,42 +12,39 @@ export default class WhatIveDone extends Component {
           <div className="dash" />
           <Row>
             <Col xs="8">
-              <Row>
+            <Row>
                 <h5>
-                  In & Out | Android Mobile App{" "}
+                  Conveyor | Kotlin Mobile App{" "}
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    href="https://github.com/hodamohammadi/In-Out"
+                    href="https://github.com/hodamohammadi/Conveyor"
                   >
                     <FontAwesome name="github" />
                   </a>{" "}
                 </h5>
-                <p>
-                  An android application developed in Android Studio using Java
-                  that stores employees and visitors daily activities in a
-                  database using SQLite and periodically emails the data using
-                  SMTP.{" "}
+                <p>Designed and developed a mobile application to connect individuals through an enhanced messaging platform, providing smart replies and secure authentication. 
+                  Implemented using Kotlin, ML Kit and Firebase. The application demonstrates a clean Android architecture (MVVM) that is modular, scalable and maintainable.
+ {" "}
                 </p>
               </Row>
 
               <Row>
                 <h5>
-                  Groceries Uber | ReactJS Web App{" "}
+                  Orbit Tracker | Android Mobile App{" "}
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    href="https://github.com/hodamohammadi/MessageMe"
+                    href="https://github.com/hodamohammadi/OrbitEngineeringTracker"
                   >
                     <FontAwesome name="github" />
-                  </a>
+                  </a>{" "}
                 </h5>
-                <p>
-                  Developed a web application to connect users with individuals
-                  providing grocery shopping and delivery services which was
-                  implemented using React and JavaScript.{" "}
+                <p> Solely designed and developed an Android application using Java and MVP design pattern used by more than 50 employees to log various work-related activities. 
+                  Used SQLite to store employee information and SMTP for related email activities. {" "}
                 </p>
               </Row>
+
               <Row>
                 <h5>
                   Piece Of Mind | Java EE Web App{" "}
@@ -65,21 +62,6 @@ export default class WhatIveDone extends Component {
                   collective.
                 </p>
               </Row>
-              <Row>
-                <h5>
-                  In2gr8 | Bootstrap Web App{" "}
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://github.com/hodamohammadi/In2gr8"
-                  />
-                  <FontAwesome name="github" />
-                </h5>
-                <p>
-                  A web application that computes symbolic results of
-                  mathematical functions using Javascript and Bootstrap.{" "}
-                </p>
-              </Row>
             </Col>
             <Col xs="4">
               <h5 className="skills">Skills</h5>
@@ -94,7 +76,7 @@ export default class WhatIveDone extends Component {
                 </Row>
                 <Row>
                   <Col xs="3">
-                    <p className="skill">JS</p>
+                    <p className="skill">Kotlin</p>
                   </Col>
                   <Col xs="9">
                     <Progress striped animated value={65} />
@@ -102,18 +84,10 @@ export default class WhatIveDone extends Component {
                 </Row>
                 <Row>
                   <Col xs="3">
-                    <p className="skill">XML</p>
+                    <p className="skill">JS</p>
                   </Col>
                   <Col xs="9">
-                    <Progress striped animated value={95} />
-                  </Col>
-                </Row>
-                <Row>
-                  <Col xs="3">
-                    <p className="skill">SQL</p>
-                  </Col>
-                  <Col xs="9">
-                    <Progress striped animated value={80} />
+                    <Progress striped animated value={50} />
                   </Col>
                 </Row>
                 <Row>
@@ -127,41 +101,15 @@ export default class WhatIveDone extends Component {
 
                 <Row>
                   <Col xs="3">
-                    <p className="skill">Redux</p>
-                  </Col>
-                  <Col xs="9">
-                    <Progress striped animated value={60} />
-                  </Col>
-                </Row>
-
-                <Row>
-                  <Col xs="3">
-                    <p className="skill">Latex</p>
-                  </Col>
-                  <Col xs="9">
-                    <Progress striped animated value={90} />
-                  </Col>
-                </Row>
-                <Row>
-                  <Col xs="3">
-                    <p className="skill">NASM</p>
+                    <p className="skill">SQL</p>
                   </Col>
                   <Col xs="9">
                     <Progress striped animated value={40} />
                   </Col>
                 </Row>
-
                 <Row>
                   <Col xs="3">
-                    <p className="skill">Bash</p>
-                  </Col>
-                  <Col xs="9">
-                    <Progress striped animated value={48} />
-                  </Col>
-                </Row>
-                <Row>
-                  <Col xs="3">
-                    <p className="skill">Python</p>
+                    <p className="skill">Python </p>
                   </Col>
                   <Col xs="9">
                     <Progress striped animated value={75} />
