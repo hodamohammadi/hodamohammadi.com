@@ -18,9 +18,9 @@ export default class WhoIAm extends Component {
               <h3>HELLO!</h3>
               <div className="dash"></div>
                 <p>My name is Hoda.</p>
-                <p>I'm a Software Engineering student at McMaster University currently finishing my third year of studies.</p>
-                <p>I have a passion for mobile application development and I spend my free time learning new skills, making projects and participating in hackathons.</p>
-                <p>My work ethic and love for programming has enabled me to create many projects I can say I am proud of. </p>
+                <p>I'm a Software Engineering student at McMaster University currently finishing my last year of studies in April 2020.</p>
+                <p>I have a passion for mobile application development and I spend my free time learning new skills, creating side projects and participating in hackathons.</p>
+                <p>My work ethic and love for programming has enabled me to contribute to create many projects I can say I am proud of. </p>
                 
               <div className="dash"></div>
               <p className="small">I've worked at:</p>

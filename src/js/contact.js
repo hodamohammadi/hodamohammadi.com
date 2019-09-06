@@ -13,7 +13,7 @@ export default class Contact extends Component {
           <FontAwesome name="paper-plane-o"/>
           <h3>Are you interested?</h3>
           <h5>Whether you have an interesting project or just want to say hi, feel free to shoot me a message.</h5>
-          <Button href="mailto:mohamh8@mcmaster.ca" outline color="secondary">Say Hi!<FontAwesome name="envelope-o"/></Button>
+          <Button href="mailto:mohamhoda@gmail.com" outline color="secondary">Say Hi!<FontAwesome name="envelope-o"/></Button>
           <div className="dash"></div>
           <h3 className="resume">Here's my RESUMÉ</h3>
           <Button href="https://hodamohammadi.com/resume/Hoda-Mohammadi-Resume.pdf" target="_blank" rel="noopener noreferrer" outline color="secondary">Resumé<FontAwesome name="file-pdf-o"/></Button>
