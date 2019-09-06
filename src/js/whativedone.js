@@ -11,7 +11,7 @@ export default class WhatIveDone extends Component {
           <h3>Projects</h3>
           <div className="dash" />
           <Row>
-            <Col xs="8">
+            <Col>
             <Row>
                 <h5>
                   Conveyor | Kotlin Mobile App{" "}
@@ -24,8 +24,7 @@ export default class WhatIveDone extends Component {
                   </a>{" "}
                 </h5>
                 <p>Designed and developed a mobile application to connect individuals through an enhanced messaging platform, providing smart replies and secure authentication. 
-                  Implemented using Kotlin, ML Kit and Firebase. The application demonstrates a clean Android architecture (MVVM) that is modular, scalable and maintainable.
- {" "}
+                  Implemented using Kotlin, ML Kit and Firebase. The application demonstrates a clean Android architecture (MVVM) that is modular, scalable and maintainable.{" "}
                 </p>
               </Row>
 
@@ -47,6 +46,23 @@ export default class WhatIveDone extends Component {
 
               <Row>
                 <h5>
+                  Pandemic Blockchain | ReactJS Ethereum DApp{" "}
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://github.com/hodamohammadi/PandemicBlockchain"
+                  >
+                    <FontAwesome name="github" />
+                  </a>
+                </h5>
+                <p>(Placed 2nd at CryptoChicks Hackathon) Implemented a decentralized application used to report and track cases of virus outbreaks.
+                  Built on the Ethereum Network using a Solidity smart contract and Ganache Truffle Framework for creating an Ethereum client. ReactJS and Google Maps API were used for data visualization.
+
+                </p>
+              </Row>
+
+              <Row>
+                <h5>
                   Piece Of Mind | Java EE Web App{" "}
                   <a
                     target="_blank"
@@ -63,61 +79,63 @@ export default class WhatIveDone extends Component {
                 </p>
               </Row>
             </Col>
-            <Col xs="4">
-              <h5 className="skills">Skills</h5>
-              <div className="skillList">
-                <Row>
-                  <Col xs="3">
-                    <p className="skill">Java</p>
-                  </Col>
-                  <Col xs="9">
-                    <Progress striped animated value={90} />
-                  </Col>
-                </Row>
-                <Row>
-                  <Col xs="3">
-                    <p className="skill">Kotlin</p>
-                  </Col>
-                  <Col xs="9">
-                    <Progress striped animated value={65} />
-                  </Col>
-                </Row>
-                <Row>
-                  <Col xs="3">
-                    <p className="skill">JS</p>
-                  </Col>
-                  <Col xs="9">
-                    <Progress striped animated value={50} />
-                  </Col>
-                </Row>
-                <Row>
-                  <Col xs="3">
-                    <p className="skill">React</p>
-                  </Col>
-                  <Col xs="9">
-                    <Progress striped animated value={50} />
-                  </Col>
-                </Row>
+            </Row>
+            <Row>
+            <Col>
+                <h5 className="skills">Skills</h5>
+                <div className="skillList">
+                  <Row>
+                    <Col xs="3">
+                      <p className="skill">Java</p>
+                    </Col>
+                    <Col xs="9">
+                      <Progress striped animated value={90} />
+                    </Col>
+                  </Row>
+                  <Row>
+                    <Col xs="3">
+                      <p className="skill">Kotlin</p>
+                    </Col>
+                    <Col xs="9">
+                      <Progress striped animated value={65} />
+                    </Col>
+                  </Row>
+                  <Row>
+                    <Col xs="3">
+                      <p className="skill">JS</p>
+                    </Col>
+                    <Col xs="9">
+                      <Progress striped animated value={50} />
+                    </Col>
+                  </Row>
+                  <Row>
+                    <Col xs="3">
+                      <p className="skill">React</p>
+                    </Col>
+                    <Col xs="9">
+                      <Progress striped animated value={50} />
+                    </Col>
+                  </Row>
 
-                <Row>
-                  <Col xs="3">
-                    <p className="skill">SQL</p>
-                  </Col>
-                  <Col xs="9">
-                    <Progress striped animated value={40} />
-                  </Col>
-                </Row>
-                <Row>
-                  <Col xs="3">
-                    <p className="skill">Python </p>
-                  </Col>
-                  <Col xs="9">
-                    <Progress striped animated value={75} />
-                  </Col>
-                </Row>
-              </div>
-            </Col>
-          </Row>
+                  <Row>
+                    <Col xs="3">
+                      <p className="skill">SQL</p>
+                    </Col>
+                    <Col xs="9">
+                      <Progress striped animated value={40} />
+                    </Col>
+                  </Row>
+                  <Row>
+                    <Col xs="3">
+                      <p className="skill">Python </p>
+                    </Col>
+                    <Col xs="9">
+                      <Progress striped animated value={70} />
+                    </Col>
+                  </Row>
+                </div>
+              </Col>
+            </Row>
         </Container>
       </div>
     );
